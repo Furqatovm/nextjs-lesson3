@@ -2,7 +2,7 @@ import { Button } from "antd"
 
 const Hero = () => {
   return (
-    <section className="bg-[url('/bgimage.png')] overflow-hidden  bg-cover bg-no-repeat h-[75vh] py-7 pl-7  rounded-[50px] relative bg-linear-to-br from-[#0000002B] to-text-primary flex justify-between items-center">
+    <section className="bg-[url('/bgimage.png')] overflow-hidden  bg-cover bg-no-repeat h-[75vh] py-7 pl-7 my-9  rounded-[50px] relative bg-linear-to-br from-[#0000002B] to-text-primary flex justify-between items-center">
         <div className="text-white flex flex-col w-[55%]">
             <span className="text-[30px] text-white uppercase">
             Sale up to 20% off
