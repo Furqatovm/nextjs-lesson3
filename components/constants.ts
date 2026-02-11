@@ -138,3 +138,32 @@ export interface ProductType extends CategoryItemType {
     discounted_price:string;
     original_price:string;
 }
+
+
+export const blogs =[
+    {
+        img:"/blog/blog.png",
+        title:"Accessorize Like a Pro",
+        date:"10th January 2024",
+        id:1,
+    },
+    {
+        img:"/blog/blgo2.png",
+        title:"Accessorize Like a Pro",
+        date:"10th January 2024",
+        id:2,
+    },
+    {
+        img:"/blog/blog3.png",
+        title:"Accessorize Like a Pro",
+        date:"10th January 2024",
+        id:3,
+    }
+]
+
+
+export interface Blogtype extends CategoryItemType {
+    date:string;
+}
+
+

@@ -1,3 +1,4 @@
+import Blog from '@/components/blog/blog'
 import Category from '@/components/category'
 import Hero from '@/components/hero'
 import LastPage from '@/components/last/last'
@@ -11,6 +12,7 @@ const Home = () => {
      <Category />
      <Products />
      <LastPage />
+     <Blog />
     </section>
   )
 }
