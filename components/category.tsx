@@ -1,6 +1,6 @@
 
 
-import { HiMiniArrowLongRight } from "react-icons/hi2";
+import { HiMiniArrowLongRight } from "react-icons/hi2"
 import CategoryItems from "./categoryItems";
 import { categoryitem, categoryItems2 } from "./constants";
 import CategoryItems2 from "./category/categoryItems2";
@@ -31,6 +31,8 @@ const Category = () => {
                 })
             }
         </div>
+
+
     </div>
   )
 }
